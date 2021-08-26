@@ -1,3 +1,12 @@
-import './main.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-document.write('Hello React/Redux!')
+
+ReactDOM.render(
+     <App />,
+  document.getElementById('root')
+);
+
+
+
