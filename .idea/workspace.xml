@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44a1b4f0-6619-41d8-8ec9-fa6704cb2368" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="5d419c90-5bcb-4494-b9f3-2c713749e59d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/AppRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Basket.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/DevicePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Shop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/DeviceStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/UserStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/trash_16x16.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/51u6y9Rm8QL._SY300_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/Agnes_Case_for_Samsung_Galaxy_S6_(1)__92643_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/Lumia1520-Front-Back-png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/_35 (1).JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/htc-one-m7-802w-dual-sim-silver.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/iphone5c-selection-hero-2013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +24,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1xHHvWLpJnIBNO67lwGFd1YVjbW" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1xHOzmtCuC2V4xPa7zWTKxBPqnf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,16 +77,27 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44a1b4f0-6619-41d8-8ec9-fa6704cb2368" name="Changes" comment="" />
-      <created>1630005328281</created>
+      <changelist id="5d419c90-5bcb-4494-b9f3-2c713749e59d" name="Changes" comment="" />
+      <created>1630008815254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1630005328281</updated>
-      <workItem from="1630005330540" duration="351000" />
+      <updated>1630008815254</updated>
+      <workItem from="1630008817338" duration="2074000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
