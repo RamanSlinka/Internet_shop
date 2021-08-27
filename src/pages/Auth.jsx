@@ -35,7 +35,7 @@ const Auth = () => {
                         }
                         <Button
                             className="mt-3 "
-                            style={{width: "80px"}}
+                            style={{width: "120px"}}
                             size="sm"
                             variant="outline-success"
                         >
