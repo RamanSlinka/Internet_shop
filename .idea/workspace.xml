@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d419c90-5bcb-4494-b9f3-2c713749e59d" name="Changes" comment="add DeviceItem  and DeviceList components">
+    <list default="true" id="5d419c90-5bcb-4494-b9f3-2c713749e59d" name="Changes" comment="add DevicePage   component">
+      <change afterPath="$PROJECT_DIR$/src/components/modals/CreateBrand.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/CreateDevice.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/CreateType.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DeviceItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeviceItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DevicePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DevicePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Admin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Admin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/UserStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/UserStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,8 @@
       <option name="presentableId" value="Default" />
       <updated>1630008815254</updated>
       <workItem from="1630008817338" duration="3015000" />
-      <workItem from="1630060410435" duration="16869000" />
+      <workItem from="1630060410435" duration="17308000" />
+      <workItem from="1630160029164" duration="2232000" />
     </task>
     <task id="LOCAL-00001" summary="first step - skeleton App">
       <created>1630011208595</created>
@@ -102,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630078360384</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add DevicePage   component">
+      <created>1630081330354</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630081330354</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add DevicePage   component">
+      <created>1630081345853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1630081345853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +143,7 @@
     <MESSAGE value="add NavBar and Auth components" />
     <MESSAGE value="add BrandBar and TypeBar components" />
     <MESSAGE value="add DeviceItem  and DeviceList components" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DeviceItem  and DeviceList components" />
+    <MESSAGE value="add DevicePage   component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add DevicePage   component" />
   </component>
 </project>
