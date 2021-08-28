@@ -6,8 +6,6 @@ const CreateType = ({show, onHide}) => {
         <Modal
             show={show}
             onHide={onHide}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
             centered
         >
             <Modal.Header closeButton>
@@ -16,11 +14,11 @@ const CreateType = ({show, onHide}) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-<Form>
-    <Form.Control
-    placeholder={'Add title type'}
-    />
-</Form>
+                <Form>
+                    <Form.Control
+                        placeholder={'Add title type'}
+                    />
+                </Form>
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="outline-danger" onClick={onHide}>Close</Button>
