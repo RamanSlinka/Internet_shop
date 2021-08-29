@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d419c90-5bcb-4494-b9f3-2c713749e59d" name="Changes" comment="add Brand pages components and modals windows .this">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/http/index.js" afterDir="false" />
+    <list default="true" id="5d419c90-5bcb-4494-b9f3-2c713749e59d" name="Changes" comment="***">
+      <change afterPath="$PROJECT_DIR$/src/http/userAPI.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/CreateDevice.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/CreateDevice.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/http/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/UserStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/UserStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../online-store-full-course-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Новая папка (2)" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -75,7 +80,9 @@
       <workItem from="1630008817338" duration="3015000" />
       <workItem from="1630060410435" duration="17308000" />
       <workItem from="1630160029164" duration="12101000" />
-      <workItem from="1630172422978" duration="1843000" />
+      <workItem from="1630172422978" duration="2310000" />
+      <workItem from="1630236917270" duration="33000" />
+      <workItem from="1630248178932" duration="6705000" />
     </task>
     <task id="LOCAL-00001" summary="first step - skeleton App">
       <created>1630011208595</created>
@@ -133,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630171075394</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="***">
+      <created>1630175590788</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1630175590788</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +173,7 @@
     <MESSAGE value="add DevicePage   component" />
     <MESSAGE value="add admin and modals pages  components" />
     <MESSAGE value="add Brand pages components and modals windows .this" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Brand pages components and modals windows .this" />
+    <MESSAGE value="***" />
+    <option name="LAST_COMMIT_MESSAGE" value="***" />
   </component>
 </project>
